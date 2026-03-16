@@ -56,7 +56,7 @@ export default defineConfig(() => {
       }),
     ],
     build: {
-      outDir: "build/client",
+      outDir: "dist",
     },
     optimizeDeps: {
       include: ["react", "react-dom", "react-router-dom"],
