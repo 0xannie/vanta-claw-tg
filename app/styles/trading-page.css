@@ -1,0 +1,141 @@
+/* Vanta Trading Page Custom Styles - Based on Figma */
+
+/* Figma Layout: 1920x1248
+ * - Nav bar: 1920x72
+ * - Main content: 1920x1126
+ *   - Left: 1590x766 (chart/trading)
+ *   - Right: 330x1126 (account panel)
+ * - Footer: 1920x48
+ */
+
+/* Override Orderly Layout */
+.dex-layout {
+  max-width: 100vw !important;
+  width: 100vw !important;
+}
+
+.dex-header {
+  height: 72px !important;
+  background: #0a0a0a !important;
+  border-bottom: 1px solid #2e3148 !important;
+}
+
+.dex-main {
+  height: calc(100vh - 72px - 48px) !important;
+  background: #0a0a0a !important;
+}
+
+/* Account Panel - Right Side (330px width like Figma) */
+.account-panel {
+  width: 330px !important;
+  min-width: 330px !important;
+  background: #121212 !important;
+  border-left: 1px solid #2e3148 !important;
+}
+
+/* Trading Area - Left Side */
+.trading-area {
+  flex: 1 !important;
+  background: #0a0a0a !important;
+}
+
+/* Chart Area */
+.chart-container {
+  height: 766px !important;
+  background: #0a0a0a !important;
+}
+
+/* Order Panel */
+.order-panel {
+  background: #121212 !important;
+  border-radius: 8px !important;
+}
+
+/* Cards */
+.vanta-card {
+  background: #1a1a1a !important;
+  border: 1px solid #2e3148 !important;
+  border-radius: 12px !important;
+}
+
+/* Buttons */
+.vanta-btn {
+  border-radius: 8px !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.vanta-btn-primary {
+  background: linear-gradient(135deg, #22c993 0%, #00be81 100%) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.vanta-btn-primary:hover {
+  background: linear-gradient(135deg, #00be81 0%, #22c993 100%) !important;
+}
+
+/* Footer */
+.dex-footer {
+  height: 48px !important;
+  background: #121212 !important;
+  border-top: 1px solid #2e3148 !important;
+}
+
+/* Wallet Connect Button */
+.wallet-connect-btn {
+  background: linear-gradient(135deg, #22c993 0%, #00be81 100%) !important;
+  border-radius: 8px !important;
+  padding: 8px 24px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+/* Input Fields */
+.vanta-input {
+  background: #1a1a1a !important;
+  border: 1px solid #2e3148 !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+}
+
+.vanta-input:focus {
+  border-color: #22c993 !important;
+  box-shadow: 0 0 0 2px rgba(34, 201, 147, 0.2) !important;
+}
+
+/* Text Colors */
+.text-primary { color: #fff !important; }
+.text-secondary { color: #949a9d !important; }
+.text-tertiary { color: #707070 !important; }
+.text-green { color: #22c993 !important; }
+.text-red { color: #ef3939 !important; }
+
+/* Backgrounds */
+.bg-primary { background: #0a0a0a !important; }
+.bg-secondary { background: #121212 !important; }
+.bg-card { background: #1a1a1a !important; }
+.bg-elevated { background: #232425 !important; }
+
+/* Borders */
+.border-default { border-color: #2e3148 !important; }
+.border-light { border-color: #353738 !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353738 !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22c993 !important;
+}

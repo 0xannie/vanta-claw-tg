@@ -8,6 +8,7 @@ import { withBasePath } from './utils/base-path';
 import { getRuntimeConfig } from './utils/runtime-config';
 
 import './styles/index.css';
+import './styles/trading-page.css';
 
 const IndexPage = lazy(() => import('./pages/Index'));
 const PerpLayout = lazy(() => import('./pages/perp/Layout'));
