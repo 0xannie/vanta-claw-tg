@@ -35,6 +35,8 @@ const SwapLayout = lazy(() => import('./pages/swap/Layout'));
 const SwapIndex = lazy(() => import('./pages/swap/Index'));
 const PointsLayout = lazy(() => import('./pages/points/Layout'));
 const PointsIndex = lazy(() => import('./pages/points/Index'));
+const StarchildLayout = lazy(() => import('./pages/starchild/Layout'));
+const StarchildIndex = lazy(() => import('./pages/starchild/Index'));
 
 
 async function loadRuntimeConfig() {
@@ -149,6 +151,13 @@ const router = createBrowserRouter([
         element: <PointsLayout />,
         children: [
           { index: true, element: <PointsIndex /> },
+        ],
+      },
+      {
+        path: 'starchild',
+        element: <StarchildLayout />,
+        children: [
+          { index: true, element: <StarchildIndex /> },
         ],
       },
     ],
