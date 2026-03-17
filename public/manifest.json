@@ -1,12 +1,12 @@
 {
-  "name": "AnnieDEX",
-  "short_name": "AnnieDEX",
-  "description": "A powerful Dex powered by Orderly & Annie",
+  "name": "Vanta Exchange",
+  "short_name": "Vanta",
+  "description": "Vanta DEX - Decentralized Exchange on Orderly Network",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#24202f",
-  "theme_color": "#b084e9",
+  "background_color": "#0A0E12",
+  "theme_color": "#22C55E",
   "orientation": "any",
   "icons": [
     {
